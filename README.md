@@ -13,6 +13,8 @@ JWoC 2020 Website
 3. git add . (too add everything)
 4. git commit -m "message"  (it is recommended to commit with a message to tell what are the things you have changed)
 5. git push (push it to the main branch now it will be available in github)
+> git push origin branch_name (it will push your code from local branch to the master branch) 
+e.g __git push origin devsg__ ( it will push branch devsg( local branch) to original repo's master branch , henceforth creating a PR)
 6. git config --global https.proxy 172.16.102.28:8080
 7. git config --global http.proxy 172.16.102.28:8080
 8. git config --global --get-regexp http.*
