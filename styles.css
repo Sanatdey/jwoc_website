@@ -1,0 +1,9 @@
+body{
+	background-image: url("winter_background.jpg");
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	background-repeat: no-repeat;
+  	background-blend-mode: normal;
+  	margin: 0;
+  	padding: 0;
+}
