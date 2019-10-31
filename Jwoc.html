@@ -1,0 +1,914 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<title>JGEC-Winter-of-Code-JWoC</title><!-- Meta tags -->
+<meta property="og:title" content="Winter of Code 1.0 | Dec 10 - Jan 10">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sristi.tech">
+<meta property="og:image" content="https://sristi.tech">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:description" content="Winter of Code is a month long online programme for students of JGEC to introduce them to open source software development.">
+<meta name="description" content="Winter of Code is a month long online programme for students of JGEC-Winter-of-Code-JWoC to introduce them to open source software development.">
+<meta name="keywords" content="SRISTI, JGEC, winter of code, open source, open source india, open source education, JALPAIGURI, CFI, technology">
+<meta name="author" content="JWoC Team">
+<meta http-equiv="cache-control" content="public">
+<meta http-equiv="expires" content="Monday, 01 August 2021, 00:00:00 GMT">
+<link rel="apple-touch-icon-precomposed" sizes="192x192" href="favicons/apple-touch-icon-192x192.png">
+<link rel="apple-touch-icon-precomposed" sizes="512x512" href="favicons/apple-touch-icon-512x512.png">
+<link rel="apple-touch-icon-precomposed" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+<meta name="application-name" content="Winter of Code">
+<meta name="msapplication-TileColor" content="#6bc8b0">
+<meta name="msapplication-TileImage" content="favicons/mstile-150x150.png">
+<meta name="msapplication-square150x150logo" content="favicons/mstile-150x150.png">
+<meta name="theme-color" content="#06addb">
+<link rel="manifest" href="/manifest.json"><!-- Fontawesome stylesheets -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"><!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"><!-- Custom styles -->
+<link href="https://woc.cyberlabs.club/css/main.min.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body><!-- Hero -->
+<header id="header">
+<div class="hero-image">
+<img src="https://snde121.000webhostapp.com/JWOC/jwoc-logo..jpeg" alt="JGEC Winter Of Code" class="img-fluid d-block d-md-none">
+<div class="hero-container d-none d-md-block">
+<img src="https://snde121.000webhostapp.com/JWOC/jwoc-logo..jpeg" srcset="https://snde121.000webhostapp.com/JWOC/jwoc-logo..jpeg, https://snde121.000webhostapp.com/JWOC/jwoc-logo..jpeg 2x" alt="Hero Image" class="img-fluid background">
+</div>
+</div>
+</header><!-- Navigation --><div class="container sticky-top navbar-container">
+<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+<div class="container">
+<a class="brand-title js-scroll-trigger" href="#header">
+    
+</a>
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+    
+    
+<ul class="navbar-nav ml-auto">
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#reg">Registration</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"> Works?</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#timeline">Timeline</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#schedule">Project</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sp">Sponser</a></li>
+<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#con">Contuct</a></li>
+</div>
+</ul></div></div></nav></div>
+<!-- About -->
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-12 text-white">
+<h2 class="section-heading">JGEC WINTER OF CODE</h2><p class="mt-3">JWoC ( JGEC Winter of Code) is a program organised by the Open Source Developers of JGEC in collaboration with Sristi 2020  which helps students to plunge into Open Source contribution  and get the realm of Software Development.<br><br></p>
+</div>
+<br>
+<div class="col-lg-12 col-12 text-white">
+<h2 class="section-heading">JWoC-HOW IT WORKS?</h2><p class="mt-3">JWoC ( JGEC Winter of Code) is a program organised by the Open Source Developers of JGEC in collaboration with Sristi 2020  which helps students to plunge into Open Source contribution  and get the realm of Software Development.</p>
+</div>
+<section id="timeline">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-12">
+  <header style="background:none;">
+    <h1 class="text-white">JWoC Timeline 2019</h1>
+</header>
+
+<ul class="timeline">
+  <!-- Item 1 -->
+  <li>
+    <div class="direction-r">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Program Announced</span>
+        <span class="time-wrapper"><span class="time">1st Nov</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div> -->
+    </div>
+  </li>
+
+  <!-- Item 2 -->
+  <li>
+    <div class="direction-l">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Mentor Registration</span>
+        <span class="time-wrapper"><span class="time">5th Nov</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div> -->
+    </div>
+  </li>
+  
+  <!-- Item 3-->
+  
+  <li>
+    <div class="direction-r">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Mentee/Participants Registration</span>
+        <span class="time-wrapper"><span class="time">1st Nov</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div> -->
+    </div>
+  </li>
+
+  <!-- Item 4 -->
+  <li>
+    <div class="direction-l">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Mentor Registration Ends</span>
+        <span class="time-wrapper"><span class="time">22nd Dec</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div> -->
+    </div>
+  </li>
+
+  <!-- Item 5 -->
+  </li>
+  <li>
+    <div class="direction-r">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Projects Announced</span>
+        <span class="time-wrapper"><span class="time">25th Dec</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div> -->
+    </div>
+  </li>
+
+  <!-- Item 6 -->
+  <li>
+    <div class="direction-l">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Community Bonding Starts</span>
+        <span class="time-wrapper"><span class="time">28th Dec</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div> -->
+    </div>
+  </li>
+
+  <!-- Item 7 -->
+  </li>
+  <li>
+    <div class="direction-r">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Community Bonding Ends</span>
+        <span class="time-wrapper"><span class="time">3rd Jan</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div> -->
+    </div>
+  </li>
+
+  <!-- Item 8 -->
+  <li>
+    <div class="direction-l">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Coding Period Starts</span>
+        <span class="time-wrapper"><span class="time">4th Jan</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div> -->
+    </div>
+  </li>
+  <!-- Item 9 -->
+  </li>
+  <li>
+    <div class="direction-r">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Phase I Completion</span>
+        <span class="time-wrapper"><span class="time">25th Jan</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div> -->
+    </div>
+  </li>
+
+  <!-- Item 10 -->
+  <li>
+    <div class="direction-l">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Phase II ends JWoC Ends</span>
+        <span class="time-wrapper"><span class="time">16th Feb</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum In ut sit in dolor nisi ex magna eu anim anim tempor dolore aliquip enim cupidatat laborum dolore.</div> -->
+    </div>
+  </li>
+  <!-- Item 11 -->
+  <li>
+    <div class="direction-r">
+      <div class="flag-wrapper">
+        <span class="hexa"></span>
+        <span class="flag">Results Announced</span>
+        <span class="time-wrapper"><span class="time">20th Feb</span></span>
+      </div>
+      <!-- <div class="desc">Lorem ipsum Nisi labore aute do aute culpa magna nulla voluptate exercitation deserunt proident.</div> -->
+    </div>
+  </li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</div>
+<section id="reg">
+    <div class="container">
+<div class="row">
+    <h2 class="text-white">Registration</h2>
+    </div>
+    <div class="row">
+        
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="margin:5%;">
+  <h4>Submit Proposal</h4>
+</button></div>
+<div class="row">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModa2" style="margin:5%;">
+  <h4>Apply For Mentee</h4>
+</button></div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		<label for="Name">Name:</label>
+			<input type="text" name="Name" id="Name" required><br>
+		<label for="email">Email:</label>
+			<input type="Email" name="email" id="email" required><br>
+		<label for="Project name">Project Name:</label>
+			<input type="text" name="Project name" id="Project Name" required><br>
+		<label for="link">Project GitHub Link:</label>
+			<input type="text" name="link" id="link" required><br>
+	</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModa2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Mentee Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+		<label for="Name">Name:</label>
+			<input type="text" name="Name" id="Name" required><br>
+    <label for="year">Year:</label>
+      <input type="text" name="year" id="year" required><br>
+    <label for="email">Email:</label>
+			<input type="Email" name="email" id="email" required><br>
+		<label for="college">College:</label>
+			<input type="text" name="college" id="college" required><br>
+		<label for="Glink">GitHub Link:</label>
+			<input type="text" name="Glink" id="Glink" required><br>
+	</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="team">
+<div class="container">
+<div class="row text-white">
+<h1>Our Team</h1>
+        <p>Here we present our team for this event. Consisting of techies , enthusiatic & little bit slackers. We hope to help all participants and looking forward to make a good community bond which will help both of us grow.</p>
+      <div class="row mgt50px">
+        <div class="column col-md-3">
+          <div class="imgBox">
+            <img src="org_2.jpg">
+          </div>
+          <div class="details">
+            <h3>Sudipto Ghosh<br><span>Oraniser</span></h3>
+            <ul>
+              <li><a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+              <li><a href="#"><img src="https://followmyvote.com/wp-content/uploads/2015/06/linkedin-logo.png"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column col-sm-3">
+          <div class="imgBox">
+            <img src="org_1.jpg">
+          </div>
+          <div class="details">
+            <h3>Papun Charan<br><span>Oraniser</span></h3>
+            <ul>
+              <li><a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+              <li><a href="#"><img src="https://followmyvote.com/wp-content/uploads/2015/06/linkedin-logo.png"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column col-md-3">
+          <div class="imgBox">
+            <img src="org_3.jpg">
+          </div>
+          <div class="details">
+            <h3>Tanmoy Sarkar<br><span>Oraniser</span></h3>
+            <ul>
+              <li><a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+              <li><a href="#"><img src="https://followmyvote.com/wp-content/uploads/2015/06/linkedin-logo.png"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column col-sm-3">
+          <div class="imgBox">
+            <img src="dev_2.jpg">
+          </div>
+          <div class="details">
+            <h3>Sayan Ganguly<br><span>Developer</span></h3>
+            <ul>
+              <li><a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+              <li><a href="#"><img src="https://followmyvote.com/wp-content/uploads/2015/06/linkedin-logo.png"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column col-sm-3">
+          <div class="imgBox">
+            <img src="dev_1.jpg">
+          </div>
+          <div class="details">
+            <h3>Dibyendu Maji<br><span>Developer</span></h3>
+            <ul>
+              <li><a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+              <li><a href="#"><img src="https://followmyvote.com/wp-content/uploads/2015/06/linkedin-logo.png"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="column col-sm-3">
+          <div class="imgBox">
+            <img src="dev_3.jpg">
+          </div>
+          <div class="details">
+            <h3>Sanat Dey<br><span>Developer</span></h3>
+            <ul>
+              <li><a href="#"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+              <li><a href="#"><img src="https://followmyvote.com/wp-content/uploads/2015/06/linkedin-logo.png"></a></li>
+            </ul>
+          </div>
+        </div>
+</div>
+</div>
+</section>
+<section id="sp">
+<div class="container">
+<div class="row">
+     <div class="header col-lg-12 text-white">
+    <h1>Cheers to our Sponsors</h1>
+    <div class="box" align="center"></div>
+  </div><br><hr>
+<!--   <h1 class="titles">Title</h1> -->
+  <div class="col-md-2.5 card"><img src="https://secure.meetupstatic.com/photos/event/9/0/2/d/600_478296909.jpeg" alt="" height="120" width="210"></div>
+  
+  <div class="col-md-2.5 card"><img src="https://blog.strapi.io/content/images/2018/04/gatsby-logo.jpg" alt="" height="120" width="210"></div> 
+  
+<!--   <div class="card"><img src="http://pngimg.com/uploads/github/github_PNG20.png" alt=""></div> -->
+  
+  <div class="col-md-2.5 card"><img src="https://i1.wp.com/supportdriven.com/wp-content/uploads/2017/10/github-logo.png?ssl=1" alt="" height="120" width="210"></div>
+  
+<!--   <div class="card"><img src="https://cdn.vox-cdn.com/thumbor/Pkmq1nm3skO0-j693JTMd7RL0Zk=/0x0:2012x1341/1200x800/filters:focal(0x0:2012x1341)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg" alt=""></div>
+  
+  <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0PqQ56oUSafcCqVeXycZ5dxS9u7IvN-xYtbJgiX8Zz0z3_Nr&s" alt=""></div> -->
+  
+  <div class="col-md-2.5 card"><img src="https://valuepress.jp/uploads/pressrelease/429/Progate_logo1.jpg" alt="" height="120" width="210"></div>
+
+</div>
+</div>
+</section>
+    
+    
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script><!-- Custom scripts --><script src="js/main.min.js"></script><script src="js/track-modal.min.js" defer="defer"></script><!-- Devfolio Apply Now script --><!-- <script src="https://apply.devfolio.co"></script> --><script>// Preload minus icon for accordion
+    if (document.images) {
+      (new Image()).src = "img/icon-minus.svg";
+    }
+    // Add class to parent on accordion switch
+    $(document).ready(function () {
+      $('.collapse').on('show.bs.collapse', function () {
+        $(this).parent('.card').addClass('active transition');
+      });
+      $('.collapse').on('hide.bs.collapse', function () {
+        $(this).parent('.card').removeClass('active');
+        $(this).parent('.card').addClass('transition');
+      });
+      $('.collapse').on('shown.bs.collapse hidden.bs.collapse', function () {
+        $(this).parent('.card').removeClass('transition');
+      });
+    });
+    // Register the service worker
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+        // Registration was successful
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }).catch(function (err) {
+        // registration failed :(
+        console.log('ServiceWorker registration failed: ', err);
+      });
+    }</script><!-- Google Analytics --><!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112787491-1"></script> --><!-- <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-112787491-1');
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 565518,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script> --></body></html>
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
+
+body{
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
+header h1{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+}
+  
+ header p{
+   text-align: center;
+   margin-bottom: 0;
+ }
+
+.hexa{
+  border: 0px;
+  float: left;
+  text-align: center;
+  height: 35px;
+  width: 60px;
+  font-size: 22px;
+  background: #f0f0f0;
+  color: #3c3c3c;
+  position: relative;
+  margin-top: 15px;
+}
+
+.hexa:before{
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  width: 0; 
+  height: 0;
+  border-bottom: 15px solid #f0f0f0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  top: -15px;
+}
+
+.hexa:after{
+  content: ""; 
+  position: absolute; 
+  left: 0; 
+  width: 0; 
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 15px solid #f0f0f0;
+  bottom: -15px;
+}
+
+.timeline {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  content: ' ';
+  display: block;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  background: rgb(213,213,213);
+  background: -moz-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+  background: -webkit-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+  background: -o-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+  background: -ms-linear-gradient(top, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+  background: linear-gradient(to bottom, rgba(213,213,213,0) 0%, rgb(213,213,213) 8%, rgb(213,213,213) 92%, rgba(213,213,213,0) 100%);
+  z-index: 5;
+}
+
+.timeline li {
+  padding: 2em 0;
+}
+
+.timeline .hexa{
+  width: 16px;
+  height: 10px;
+  position: absolute;
+  background: #00c4f3;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  margin-left:auto;
+  margin-right:auto;
+  top: -30px;
+  margin-top: 0;
+}
+
+.timeline .hexa:before {
+  border-bottom: 4px solid #00c4f3;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  top: -4px;
+}
+
+.timeline .hexa:after {
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-top: 4px solid #00c4f3;
+  bottom: -4px;
+}
+
+.direction-l,
+.direction-r {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+.flag-wrapper {
+  text-align: center;
+  position: relative;
+}
+
+.flag {
+  position: relative;
+  display: inline;
+  background: rgb(255,255,255);
+  font-weight: 600;
+  z-index: 15;
+  padding: 6px 10px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.direction-l .flag:after,
+.direction-r .flag:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -15px;
+  height: 0;
+  width: 0;
+  margin-left: -8px;
+  border: solid transparent;
+  border-bottom-color: rgb(255,255,255);
+  border-width: 8px;
+  pointer-events: none;
+}
+
+.direction-l .flag {
+  -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.direction-r .flag {
+  -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+
+.time-wrapper {
+  display: block;
+  position: relative;
+  margin: 4px 0 0 0;
+  z-index: 14;
+  line-height: 1em;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.direction-l .time-wrapper {
+  float: none;
+}
+
+.direction-r .time-wrapper {
+  float: none;
+}
+
+.time {
+  background: #00c4f3;
+  display: inline-block;
+  padding: 8px;
+}
+
+.desc {
+  position: relative;
+  margin: 1em 0 0 0;
+  padding: 1em;
+  background: rgb(254,254,254);
+  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
+  box-shadow: 0 0 1px rgba(0,0,0,0.20);
+  z-index: 15;
+}
+
+.direction-l .desc,
+.direction-r .desc {
+  position: relative;
+  margin: 1em 1em 0 1em;
+  padding: 1em;
+  z-index: 15;
+}
+
+@media(min-width: 768px){
+      .row .column{
+  margin: 0 5px;
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+  min-height: 250px;
+  box-sizing: border-box;
+  overflow: hidden;
+  
+}
+  .timeline {
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+  
+  .timeline .hexa {
+    left: -28px;
+    right: auto;
+    top: 8px;
+  }
+
+  .timeline .direction-l .hexa {
+    left: auto;
+    right: -28px;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 310px;
+    float: left;
+    text-align: right;
+  }
+
+  .direction-r {
+    position: relative;
+    width: 310px;
+    float: right;
+    text-align: left;
+  }
+
+  .flag-wrapper {
+    display: inline-block;
+  }
+  
+  .flag {
+    font-size: 18px;
+  }
+
+  .direction-l .flag:after {
+    left: auto;
+    right: -16px;
+    top: 50%;
+    margin-top: -8px;
+    border: solid transparent;
+    border-left-color: rgb(254,254,254);
+    border-width: 8px;
+  }
+
+  .direction-r .flag:after {
+    top: 50%;
+    margin-top: -8px;
+    border: solid transparent;
+    border-right-color: rgb(254,254,254);
+    border-width: 8px;
+    left: -8px;
+  }
+
+  .time-wrapper {
+    display: inline;
+    vertical-align: middle;
+    margin: 0;
+  }
+
+  .direction-l .time-wrapper {
+    float: left;
+  }
+
+  .direction-r .time-wrapper {
+    float: right;
+  }
+
+  .time {
+    padding: 5px 10px;
+  }
+
+  .direction-r .desc {
+    margin: 1em 0 0 0.75em;
+  }
+}
+
+@media(min-width: 992px){
+  .timeline {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .direction-l {
+    position: relative;
+    width: 380px;
+    float: left;
+    text-align: right;
+  }
+
+  .direction-r {
+    position: relative;
+    width: 380px;
+    float: right;
+    text-align: left;
+  }
+  .row .column{
+  margin: 0 5px;
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+  min-height: 250px;
+  box-sizing: border-box;
+  overflow: hidden;
+  
+}
+}
+.team{
+  
+  height: 100vh;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  margin: 10px auto;
+}
+.row{
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+.row h1{
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+.row p{
+  margin: 20px 0 0;
+  padding-left: 20px;
+  border-left: 5px solid;
+}
+.mgt50px{
+  margin-top: 50px;
+}
+.row .column{
+  margin: 0 2%;
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+  min-height: 250px;
+  box-sizing: border-box;
+  overflow: hidden;
+  
+}
+
+.row .column .imgBox{
+  position: relative;
+}
+.row .column .imgBox img{
+  width: 100%;
+  transition: 2s;
+  height: 250px;
+}
+.row .column:hover .imgBox img{
+  transform:scale(1.15);
+}
+.row .column .details{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  background: black;
+  width: 100%;
+  transition: .5s;
+  bottom: -160px;
+}
+.row .column:hover .details{
+  bottom:0;
+}
+.row .column .details h3{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+.row .column .details h3 span{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color:red;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  top: -6px;
+}
+.row .column .details ul{
+  margin:0;
+  padding: 0;
+  display:flex;
+  text-align: center;
+}
+.row .column .details ul li{
+  list-style: none;
+}
+.row .column .details ul li a{
+  padding: 0 10px;
+  color:white;
+}
+.row .column .details ul li a img{
+  height: 30px;
+  width: 30px;
+  transition: .5s;
+}
+.row .column .details ul li img:hover{
+  transform: rotateY(360deg);
+}
+.card:hover {
+  transform: scale(1.2);
+}
+.card{
+    margin:10px;
+  border: 1px solid #ddd;
+  transition: all 0.4s ease-in-out;
+  }
+  </style>
